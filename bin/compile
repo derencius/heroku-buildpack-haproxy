@@ -39,7 +39,7 @@ echo
 echo "-----> Compiling..."
 
 make -sC "${CACHE_DIR}/${ARCHIVE_DIR}" \
-	TARGET=linux2628 \
+	TARGET=linux-glibc \
 	USE_PCRE=1 PCREDIR= \
 	USE_OPENSSL=1 \
 	USE_ZLIB=1 \
